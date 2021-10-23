@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  min-height: 650px;
+  border:1px solid #555;
+  margin: 10px auto;
+  padding: 60px;
+  color: black;
+  border-radius: 50px;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+.Todo{
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+  min-height: 400px;
+  border:1px solid #555;
+  margin-left: -35px;
+  margin-top: 20px;
+  padding: 60px;
+  color: black;
+  border-radius: 50px;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+.Menu{
+  width: 250px;
+  margin-left: 280px;
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.titleMenu{
+  display: flex;
+  margin: auto;
+}
+.Menuitem{
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+.Menuitem:hover{
+  background-color: #ccc;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.Home{
+  border:1px solid whitesmoke;
+  border-collapse: collapse;
+  border-radius: 30px;
+  margin: auto;
+  background: white;
+  width: 100%;
+  font-size: 20px;
+}
+.titleHome {
+  color:black;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin: 50px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color:black;
+}
+form{
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  border:0.5px solid black;
+}
+.input_todo{
+  text-align: left;
+}
+form input, button{
+  margin:10px 40px;
+  padding-bottom: 5px;
+  border:none;
+  outline:none;
+  border-bottom: 0.5px solid #ccc;
+  color:black;
+  font-size: 16px;
+
+}
+button{
+  background:black;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+button:hover{
+  background-color:  rgb(37, 37, 37);
+  color:white;
+  transition: 0.3s;
+}
+.list{
+  border: 1px solid #555;
+  margin: auto;
+  width: 445px;
+  max-height: 250px;
+}
+
+ul{
+  margin: auto;
+  overflow-y: scroll;
+  max-height: 150px;
+}
+ul li{
+  list-style: none;
+  border:1px solid #ccc;
+  margin:10px;
+  margin-right: 20px;  
+  margin-left: -5px;
+  padding: 20px;
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
+li.disabled{
+  background-color: rgb(46, 189, 46);
+  font-weight:bold;
+  color: black;
+}
+#id{
+  padding:0px 10px;
+}
+ul li .active{
+  opacity:  0.5;
+  text-decoration: line-through;
+}
+ul li button{
+  border: none;
+  outline: none;
+  cursor: pointer;  padding:5px 15px; width: 300px;
+}
+
+label{
+  cursor: pointer;
+}
+.btn_delete{
+  cursor: pointer;
+  background-color: rgb(187, 18, 18);
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  width: 130px;
+  font-size: 14px;
+  margin: auto;
+}
+.btn_delete:hover{
+  background-color: rgb(255, 41, 41);
+  transition: 0.3s;
+}
+.container{
+  margin-top: 10px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+} 
+.detail{
+  margin: auto;
+}
+.About{
+  color: black;
+  padding: 5px;
+  text-align: left;
+  margin: 11px;
+  width: 300px;
+  background: white;
+}
+.Aboutteam{
+  border:1px solid whitesmoke;
+  border-collapse: collapse;
+  border-radius: 30px;
+  margin: auto;
+  background: white;
+  width: 100%;
+  font-size: 20px;
+  height: 600px;
+}
+.About h3{
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.titleAbout{
+  margin: auto;
+  text-align: left;
+  font-size: 14px;
+}
+.inputtitle{
+  margin:auto;
+  text-align: left;
+  font-size: 14px;
+}
+.Yourinfo{
+  display: flex;
+  padding: 5px;
+  border-bottom: 0.5px solid #555;
+  text-align: left;
+  border-top:0.5px solid #555;
+}
+.Who-did{
+  border:ridge;
+  width: 250px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 5px;
+  margin-left: 10px;
+}
